@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font: 1em sans-serif;
+}
+
+/** video **/
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/** overlay **/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+/** section **/
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+/** nav **/
+
+nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ccb911;
+    font-size: 20px;
+}
+
+/** content text **/
+
+.content {
+    text-align: center;
+    z-index: 2;
+}
+
+.content h1 {
+    font-size: 70px;
+    color: #fff;
+    -webkit-text-stroke: 1px #fff;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    transition: 0.3s;
+}
+
+.content h1:hover {
+    color: transparent;
+}
+
+.content p {
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+}
