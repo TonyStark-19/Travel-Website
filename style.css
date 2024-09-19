@@ -52,6 +52,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: skyblue;
 }
 
 nav ul {
@@ -61,17 +62,27 @@ nav ul {
     padding: 0;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
-    color: #ccb911;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
     font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #fff;
+    color: skyblue;
 }
 
 /** content text **/
@@ -98,4 +109,21 @@ nav ul li a{
     font-size: 30px;
     color: #fff;
     margin: 0;
+}
+
+button {
+    font-size: 25px;
+    padding: 10px 30px;
+    margin: 35px 0 0;
+    background: #fff;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background: skyblue;
+    color: #fff;
 }
