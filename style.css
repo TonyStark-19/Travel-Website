@@ -131,4 +131,5 @@ button:hover {
     transform: scale(1.2);
     background: #2E236C;
     color: #fff;
+    cursor: pointer;
 }
