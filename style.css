@@ -50,16 +50,21 @@ nav {
     top: 0;
     left: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background: skyblue;
+    background: #2E236C;
+}
+
+nav img {
+    width: 60px;
+    height: 60px;
+    margin-left: 100px;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
     list-style: none;
     padding: 0;
+    margin-right: 50px;
 }
 
 nav ul li {
@@ -82,7 +87,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background: #fff;
-    color: skyblue;
+    color: #2E236C;
 }
 
 /** content text **/
@@ -113,10 +118,10 @@ nav ul li a:hover {
 
 button {
     font-size: 25px;
-    padding: 10px 30px;
+    padding: 15px 35px;
     margin: 35px 0 0;
     background: #fff;
-    color: black;
+    color: #2E236C;
     border-radius: 15px;
     border: none;
     transition: all 0.3s ease;
@@ -124,6 +129,6 @@ button {
 
 button:hover {
     transform: scale(1.2);
-    background: skyblue;
+    background: #2E236C;
     color: #fff;
 }
