@@ -2,32 +2,32 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
     font: 1em sans-serif;
+    scroll-behavior: smooth;
 }
 
 /** video **/
 
 .video-background {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: -2;
 }
 
 /** overlay **/
 
 .overlay {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 0;
+    z-index: -1;
 }
 
 /** section **/
@@ -39,13 +39,13 @@ body, html {
     flex-direction: column;
     height: 100vh;
     position: relative;
-    z-index: 1;
+    overflow: hidden;
 }
 
 /** nav **/
 
 nav {
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -53,6 +53,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: #2E236C;
+    z-index: 2;
 }
 
 nav img {
@@ -94,7 +95,7 @@ nav ul li a:hover {
 
 .content {
     text-align: center;
-    z-index: 2;
+    z-index: 1;
 }
 
 .content h1 {
@@ -132,4 +133,59 @@ button:hover {
     background: #2E236C;
     color: #fff;
     cursor: pointer;
+}
+
+.next {
+    min-height: 100vh;
+    background: #fff;
+    z-index: 0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading h1 {
+    font-size: 40px;
+    color: #000;
+    margin: 40px 0 10px;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.service-box {
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(211,211,211);
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+}
+
+.service-box img {
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    margin: 0 0 15px;
+}
+
+.service-box h4 {
+    font-size: 20px;
+    margin: 0 0 5px;
+    color: #000;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #808080;
 }
