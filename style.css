@@ -277,6 +277,8 @@ button:hover {
     justify-content: center;
     flex-direction: row;
     gap: 40px;
+    margin: 0 30px;
+    flex-wrap: wrap;
 }
 
 .package-box {
@@ -284,8 +286,8 @@ button:hover {
     width: 330px;
     height: 500px;
     border-radius: 30px;
-    overflow: hidden;
     margin: 0 0 40px;
+    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     filter: brightness(0.8);
     transition: all 0.3s ease;
@@ -313,4 +315,52 @@ button:hover {
 .package-box h3 {
     font-size: 30px;
     margin: 0;
+}
+
+.package-details {
+    margin: 0 30px;
+    width: 330px;
+    margin: -50px 0 50px;
+    padding: 15px 0 0;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.package-details h4 {
+    font-size: 25px;
+    margin: 0 0 2px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.package-details ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.package-details ul li {
+    letter-spacing: 1px;
+    font-size: 19px;
+    margin: 0 0 2px 15px;
+    color: #4c4c4c;
+    list-style-type: disc;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.newsletter-text h2 {
+    font-size: 38px;
+    color: #000;
+    margin: 50px 0 0;
+}
+
+.newsletter-text p {
+    font-size: 20px;
+    color: #4c4c4c;
 }
