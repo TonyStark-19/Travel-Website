@@ -16,19 +16,7 @@ body, html {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-}
-
-/** overlay **/
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 0;
-    pointer-events: none;
+    filter: brightness(0.6);
 }
 
 /** section **/
@@ -137,6 +125,8 @@ button:hover {
     cursor: pointer;
 }
 
+/** next section **/
+
 .next {
     min-height: 100vh;
     background: #fff;
@@ -196,6 +186,8 @@ button:hover {
     letter-spacing: 1px;
 }
 
+/** location section **/
+
 .location {
     display: flex;
     justify-content: center;
@@ -209,12 +201,16 @@ button:hover {
     font-weight: 800;
     color: #000;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .location-content {
+    margin-top: 20px;
+    margin: 0 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 40px;
 }
 
 .location-box {
@@ -255,5 +251,66 @@ button:hover {
 
 .location-box p {
     font-size: 20px;
+    margin: 0;
+}
+
+/** Packages section **/
+
+.Package {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.package-heading h1 {
+    padding: 75px 0 10px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.package-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.package-box {
+    position: relative;
+    width: 330px;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 0 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    filter: brightness(0.8);
+    transition: all 0.3s ease;
+}
+
+.package-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.package-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    filter: brightness(1);
+}
+
+.prize {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+}
+
+.package-box h3 {
+    font-size: 30px;
     margin: 0;
 }
