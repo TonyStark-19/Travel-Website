@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -160,7 +161,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid rgb(211,211,211);
+    border: 1px solid rgb(211, 211, 211);
     border-radius: 5px;
     width: 300px;
     height: 250px;
@@ -386,7 +387,7 @@ nav ul li a:hover {
     background: #fff;
     margin: 0 20px;
     border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
