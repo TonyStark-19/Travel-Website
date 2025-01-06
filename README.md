@@ -2,12 +2,17 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Key Features](#keyfeatures)
-- [Technologies Used](#technologiesused)
+- [Screenshots](#screenshots)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
 - [Features](#features)
 
 ## Overview
 Welcome to **WanderVista Travels**, a modern travel website that allows users to explore and book travel packages across various exciting destinations around the world. The site is designed with a sleek user interface that provides flight services, food and catering, hotel booking, and travel assistance, ensuring a hassle-free experience for travelers.
+
+## Screenshots
+### Homepage : 
+![Homepage Screenshot](images/image.png)
 
 ### Key Features
 - **Video Background**: A captivating video plays in the background to draw attention as soon as users land on the homepage.
