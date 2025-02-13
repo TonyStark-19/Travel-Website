@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 body,
 html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font: 1em sans-serif;
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #d67e0b #2E236C;
+    overflow-x: hidden;
 }
 
 /** video **/
@@ -20,7 +25,7 @@ html {
     filter: brightness(0.6);
 }
 
-/** section **/
+/** home section **/
 
 #home {
     display: flex;
@@ -31,9 +36,10 @@ html {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    margin-bottom: -90px;
 }
 
-/** nav **/
+/** navbar **/
 
 nav {
     position: fixed;
@@ -69,8 +75,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 10px 20px;
+    border-radius: 20px;
     color: #fff;
     font-size: 20px;
     font-weight: 600;
@@ -87,6 +93,7 @@ nav ul li a:hover {
 .content {
     text-align: center;
     z-index: 1;
+    margin-top: 100px;
 }
 
 .content h1 {
@@ -120,7 +127,7 @@ nav ul li a:hover {
 }
 
 .Register:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
     background: #2E236C;
     color: #fff;
     cursor: pointer;
@@ -139,13 +146,15 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 90px 0 0;
+    margin-bottom: -70px;
 }
 
 .heading h1 {
     font-size: 40px;
     color: #000;
     font-weight: 800;
-    margin: 50px 0 30px;
+    margin: 50px 0 40px;
 }
 
 .services {
@@ -165,6 +174,11 @@ nav ul li a:hover {
     border-radius: 5px;
     width: 300px;
     height: 250px;
+    transition: all 0.3s ease;
+}
+
+.service-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .service-box img {
@@ -194,15 +208,16 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: -70px;
 }
 
 .location-heading h1 {
-    padding: 75px 0 10px;
+    padding: 120px 0 10px;
     font-size: 40px;
     font-weight: 800;
     color: #000;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .location-content {
@@ -265,12 +280,12 @@ nav ul li a:hover {
 }
 
 .package-heading h1 {
-    padding: 75px 0 10px;
+    padding: 120px 0 10px;
     font-size: 40px;
     font-weight: 800;
     color: #000;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .package-content {
@@ -387,7 +402,7 @@ nav ul li a:hover {
     background: #fff;
     margin: 0 20px;
     border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,6 +439,8 @@ nav ul li a:hover {
     background: transparent;
 }
 
+/* footer section */
+
 footer {
     margin-top: 80px;
     background: #2E236C;
@@ -440,7 +457,7 @@ footer {
     position: relative;
     color: #fff;
     margin: 30px 0 20px;
-    font-size: 20px;
+    font-size: 25px;
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -465,7 +482,7 @@ footer {
 }
 
 .links ul a {
-    font-size: 17px;
+    font-size: 20px;
     color: #dddddd;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -479,7 +496,7 @@ footer {
     position: relative;
     color: #fff;
     margin: 30px 0;
-    font-size: 20px;
+    font-size: 25px;
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -504,8 +521,8 @@ footer {
 
 .social-links a {
     margin: 5px;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     background: #fff;
     border-radius: 50%;
     display: flex;
@@ -521,12 +538,12 @@ footer {
 }
 
 .social-links i {
-    font-size: 20px;
+    font-size: 23px;
     color: #2E236C;
 }
 
 .end {
-    padding: 60px 0 12px;
+    padding: 40px 0 12px;
     display: flex;
     justify-content: center;
     align-items: center;
