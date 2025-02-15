@@ -206,9 +206,12 @@ nav ul li a:hover {
 
 .services {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 20px;
     margin: 20px 30px 10px;
+    flex-wrap: wrap;
 }
 
 .service-box {
@@ -272,6 +275,8 @@ nav ul li a:hover {
     margin: 0 30px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -419,6 +424,12 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.newsletter-text {
+    margin-top: -30px;
 }
 
 .newsletter-text h2 {
@@ -752,6 +763,24 @@ footer {
     }
 }
 
+@media (max-width: 1010px) {
+
+    /* services section */
+
+    .service-box {
+        width: 250px;
+    }
+
+    .service-box h4 {
+        font-size: 20px;
+    }
+
+    .service-box img {
+        height: 90px;
+        width: 90px;
+    }
+}
+
 @media (max-width: 950px) {
 
     /* home section */
@@ -776,6 +805,40 @@ footer {
         font-size: 19px;
         padding: 15px 25px;
     }
+
+    /* newsletter */
+
+    .newsletter-text h2 {
+        font-size: 35px;
+    }
+
+    .newsletter-text p {
+        font-size: 18px;
+    }
+
+    .input-box {
+        height: 60px;
+        max-width: 380px;
+    }
+
+    .input-box input {
+        font-size: 16px;
+        padding: 20px 100px 20px 25px;
+    }
+
+    .input-box .Subscribe {
+        font-size: 16px;
+        padding: 13px 26px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    /* services section */
+
+    .heading h1 {
+        font-size: 34px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -797,6 +860,43 @@ footer {
     nav ul li a {
         font-size: 17px;
         padding: 7px 15px;
+    }
+
+    /* services section */
+
+    .heading h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    /* newsletter */
+
+    .newsletter-text h2 {
+        font-size: 32px;
+    }
+
+    .newsletter-text p {
+        font-size: 17px;
+    }
+
+    .input-box {
+        height: 55px;
+        max-width: 340px;
+    }
+
+    .input-box input {
+        font-size: 15px;
+    }
+
+    .input-box .Subscribe {
+        font-size: 15px;
+        padding: 12px 24px;
+    }
+
+    /* footer */
+
+    .end {
+        padding: 30px 0 12px;
     }
 }
 
@@ -849,6 +949,35 @@ footer {
     nav img {
         margin-left: 40px;
     }
+
+    /* newsletter */
+
+    .newsletter {
+        flex-direction: column;
+        margin-bottom: -30px;
+    }
+
+    .newsletter-text h2 {
+        font-size: 38px;
+    }
+
+    .newsletter-text p {
+        font-size: 20px;
+    }
+
+    .input-box {
+        height: 64px;
+        max-width: 420px;
+    }
+
+    .input-box input {
+        font-size: 17px;
+    }
+
+    .input-box .Subscribe {
+        font-size: 17px;
+        padding: 14px 30px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -869,6 +998,42 @@ footer {
         font-size: 18px;
         padding: 15px;
     }
+
+    /* services section */
+
+    .heading h1 {
+        text-align: center;
+        font-size: 32px;
+        width: 600px;
+    }
+
+    /* footer */
+
+    .links h4,
+    .connect h4 {
+        font-size: 21px;
+    }
+
+    .links ul a {
+        font-size: 18px;
+    }
+
+    .social-links a {
+        height: 40px;
+        width: 40px;
+    }
+
+    .social-links i {
+        font-size: 21px;
+    }
+
+    .end {
+        padding: 20px 0 12px;
+    }
+
+    .end p {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -888,6 +1053,63 @@ footer {
         font-size: 17px;
         padding: 13px 15px;
         margin: 15px 0 0;
+    }
+
+    /* footer */
+
+    .links h4,
+    .connect h4 {
+        font-size: 19px;
+    }
+
+    .links ul a {
+        font-size: 16px;
+    }
+
+    .end {
+        padding: 20px 0 12px;
+    }
+}
+
+@media (max-width: 630px) {
+
+    /* services section */
+
+    .heading h1 {
+        font-size: 30px;
+        width: 500px;
+    }
+
+    .service-box {
+        width: 220px;
+    }
+
+    .service-box h4 {
+        font-size: 18px;
+    }
+
+    .service-box img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    /* services section */
+
+    .heading h1 {
+        font-size: 30px;
+        width: 450px;
+    }
+
+    .service-box {
+        width: 200px;
+    }
+
+    .service-box img {
+        height: 70px;
+        width: 70px;
     }
 }
 
@@ -920,6 +1142,95 @@ footer {
         font-size: 16px;
         padding: 13px 15px;
     }
+
+    /* newsletter */
+
+    .newsletter {
+        gap: 20px;
+    }
+
+    .newsletter-text h2 {
+        font-size: 35px;
+    }
+
+    .newsletter-text p {
+        font-size: 18px;
+    }
+
+    .input-box {
+        height: 60px;
+        max-width: 380px;
+    }
+
+    .input-box input {
+        font-size: 16px;
+        padding: 20px 100px 20px 25px;
+    }
+
+    .input-box .Subscribe {
+        font-size: 16px;
+        padding: 13px 26px;
+    }
+
+    /* footer */
+
+    .foot-panel {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+
+    .connect h4 {
+        margin-top: 20px;
+    }
+
+    .links h4,
+    .connect h4 {
+        margin-bottom: 20px;
+    }
+
+    .end {
+        padding: 25px 0 15px;
+    }
+
+    .end p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 530px) {
+
+    /* services section */
+
+    .service-box {
+        width: 280px;
+    }
+
+    .service-box img {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* footer */
+
+    .links h4,
+    .connect h4 {
+        margin: 20px 0 10px;
+    }
+
+    .connect h4 {
+        margin-bottom: 20px;
+    }
+
+    .end p {
+        width: 350px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -949,6 +1260,41 @@ footer {
     .content p {
         width: 350px;
     }
+
+    /* services section */
+
+    .heading h1 {
+        font-size: 26px;
+        width: 400px;
+    }
+
+    /* newsletter */
+
+    .newsletter {
+        gap: 10px;
+    }
+
+    .newsletter-text h2 {
+        font-size: 32px;
+    }
+
+    .newsletter-text p {
+        font-size: 17px;
+    }
+
+    .input-box {
+        height: 55px;
+        max-width: 340px;
+    }
+
+    .input-box input {
+        font-size: 15px;
+    }
+
+    .input-box .Subscribe {
+        font-size: 15px;
+        padding: 12px 24px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -956,6 +1302,64 @@ footer {
     /* home section */
 
     .content p {
+        width: 300px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    /* services section */
+
+    .heading h1 {
+        font-size: 26px;
+        width: 330px;
+    }
+
+    /* newsletter */
+
+    .newsletter-text h2 {
+        font-size: 30px;
+    }
+
+    .newsletter-text p {
+        font-size: 16px;
+    }
+
+    .input-box {
+        height: 50px;
+        max-width: 300px;
+    }
+
+    .input-box input {
+        font-size: 14px;
+    }
+
+    .input-box .Subscribe {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    /* services section */
+
+    .service-box {
+        width: 260px;
+    }
+
+    .service-box img {
+        height: 80px;
+        width: 80px;
+    }
+
+    /* footer */
+
+    .end {
+        padding: 20px 0 10px;
+    }
+
+    .end p {
         width: 300px;
     }
 }
