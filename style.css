@@ -380,6 +380,25 @@ nav ul li a:hover {
     color: white;
 }
 
+.details-btn {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.details-btn button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: #2E236C;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.details-btn button i {
+    margin: 0 5px 0 -5px;
+}
+
 .package-box h3 {
     font-size: 30px;
     margin: 0;
@@ -390,7 +409,7 @@ nav ul li a:hover {
 .package-details {
     margin: 0 30px;
     width: 330px;
-    margin: -50px 0 50px;
+    margin: -20px 0 30px;
     padding: 15px 0 0;
     display: flex;
     text-align: left;
@@ -704,6 +723,48 @@ footer {
         height: 90px;
         width: 90px;
     }
+
+    /* location section */
+
+    .location-content {
+        gap: 30px;
+    }
+
+    .location-box {
+        width: 320px;
+        height: 450px;
+    }
+
+    .location-box h5 {
+        font-size: 23px;
+    }
+
+    .location-box p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    /* location section */
+
+    .location-heading h1 {
+        margin: -10px 0 30px;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    /* location section */
+
+    .location-content {
+        gap: 20px;
+    }
+
+    .location-box {
+        width: 310px;
+        height: 420px;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -763,6 +824,16 @@ footer {
     }
 }
 
+@media (max-width: 1030px) {
+
+    /* location section */
+
+    .location-box {
+        width: 300px;
+        height: 400px;
+    }
+}
+
 @media (max-width: 1010px) {
 
     /* services section */
@@ -778,6 +849,21 @@ footer {
     .service-box img {
         height: 90px;
         width: 90px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    /* location section */
+
+    .location-content {
+        gap: 40px;
+    }
+
+    .location-box {
+        width: 330px;
+        height: 450px;
+        margin-bottom: -5px;
     }
 }
 
@@ -980,6 +1066,20 @@ footer {
     }
 }
 
+@media (max-width: 765px) {
+
+    /* location section */
+
+    .location-content {
+        gap: 30px;
+    }
+
+    .location-box {
+        width: 300px;
+        height: 400px;
+    }
+}
+
 @media (max-width: 750px) {
 
     /* home section */
@@ -1033,6 +1133,20 @@ footer {
 
     .end p {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    /* location section */
+
+    .location-content {
+        gap: 50px;
+    }
+
+    .location-box {
+        width: 330px;
+        height: 450px;
     }
 }
 
@@ -1304,6 +1418,23 @@ footer {
     .content p {
         width: 300px;
     }
+
+    /* location section */
+
+    /* location section */
+
+    .location-heading h1 {
+        font-size: 35px;
+    }
+
+    .location-content {
+        gap: 40px;
+    }
+
+    .location-box {
+        width: 300px;
+        height: 400px;
+    }
 }
 
 @media (max-width: 380px) {
@@ -1351,6 +1482,17 @@ footer {
     .service-box img {
         height: 80px;
         width: 80px;
+    }
+
+    /* location section */
+
+    .location-content {
+        gap: 35px;
+    }
+
+    .location-box {
+        width: 270px;
+        height: 380px;
     }
 
     /* footer */
