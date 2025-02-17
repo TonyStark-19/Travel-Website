@@ -17,3 +17,16 @@ document.addEventListener('DOMContentLoaded', function () {
         menuBtn.classList.remove('hidden'); // Show menu button
     });
 });
+
+// js logic for package boxes
+
+document.querySelectorAll('.details-icon').forEach(icon => {
+    icon.addEventListener('click', function () {
+        let contentWrap = this.closest('.package-content-wrap');
+        let packageBox = contentWrap.querySelector('.package-box');
+        let packageDetails = contentWrap.querySelector('.package-details');
+
+        packageBox.classList.toggle('hidden');
+        packageDetails.classList.toggle('hidden');
+    });
+});
