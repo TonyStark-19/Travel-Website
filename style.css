@@ -1142,6 +1142,10 @@ footer {
 
     /* home section */
 
+    .content {
+        margin-top: 90px;
+    }
+
     .content h1 {
         font-size: 45px;
         margin-bottom: 0;
@@ -1303,6 +1307,10 @@ footer {
 
     nav img {
         margin-left: 30px;
+    }
+
+    .content {
+        margin-top: 80px;
     }
 
     .content h1 {
@@ -1596,6 +1604,6 @@ footer {
     }
 
     .end p {
-        width: 300px;
+        width: 320px;
     }
 }
