@@ -173,6 +173,7 @@ nav ul a:hover {
     min-height: 100vh;
     background: #fff;
     z-index: 0;
+    scroll-margin-top: -20px;
 }
 
 /* services section */
@@ -318,6 +319,7 @@ nav ul a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    scroll-margin-top: -10px;
 }
 
 .package-heading h1 {
@@ -1055,7 +1057,7 @@ footer {
         top: 70px;
         right: -125%;
         width: 100%;
-        min-height: 40vh;
+        height: 260px;
         background: #fff;
         display: flex;
         flex-direction: column;
