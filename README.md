@@ -1,45 +1,59 @@
-# WanderVista Travels - Travel Website 🌏
+# 🌏 WanderVista Travels – Travel Website
 
-## Overview
-Welcome to **WanderVista Travels**, a modern travel website that allows users to explore and book travel packages across various exciting destinations around the world. The site is designed with a sleek user interface that provides flight services, food and catering, hotel booking, and travel assistance, ensuring a hassle-free experience for travelers. This project is a fully responsive website built using **HTML, CSS, and JavaScript**. It features a modern design with a **menu toggle functionality** and **interactive package boxes**.
+Welcome to **WanderVista Travels**, a modern travel website that allows users to explore and book travel packages across various exciting destinations around the world. The site is designed with a sleek user interface that provides flight services, food and catering, hotel booking, and travel assistance, ensuring a hassle-free experience for travelers.
 
 ---
 
-## 📌 Demo
+## 📸 Screenshots
+
+### Homepage :
+![Homepage Screenshot](images/image.png)
+
+---
+
+## 🌐 Live Demo
 
 You can view the live demo of this project here: [WanderVista Website](https://travel-website-topaz-eight.vercel.app/)
 
 ---
 
-## 📷 Screenshots
-### Homepage : 
-![Homepage Screenshot](images/image.png)
+## 🚀 Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Font Awesome** (for icons)
 
 ---
 
-## 📌 Features
+## 💻 Features
 
-- ✅ **Fully Responsive** – Works seamlessly on all screen sizes.  
-- ✅ **Menu Toggle Logic** – Implemented using JavaScript.  
-- ✅ **Animated Package Boxes** – Interactive elements created using JavaScript & CSS animations.  
-- ✅ **Modern & Clean UI** – Aesthetic design with smooth animations.  
-
----
-
-## 🛠️ Technologies Used
-
-- **HTML** – Structure of the website  
-- **CSS** – Styling and animations  
-- **JavaScript** – Menu toggle and dynamic package interactions  
-- **Font Awesome**: Used for social media and service icons.
-- **Video Integration**: For immersive background effects.
+- ✅ **Responsive Layout** – Mobile, tablet, and desktop optimized
+- ✅ **Interactive Navigation Menu**
+- ✅ **Beautiful Hero Section** with call-to-action
+- ✅ **Services Section** – Showcasing the travel services offered
+- ✅ **Locations Section** – Explore available travel destinations
+- ✅ **Packages Section** – Displaying travel packages attractively
+- ✅ **Contact Us Section** – For easy communication
+- ✅ **Font Awesome Icons** – Clean and modern icon usage
 
 ---
 
-## 📩 Feedback & Contributions
+## 🛠️ How to Use
 
-- Feel free to fork this project and submit a pull request!
-- If you find any bugs or have suggestions, open an issue.
-- If you like this project, please give it a ⭐ on GitHub! 
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/TonyStark-19/Travel-Website.git
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd Travel-Website
+   ```
+
+3. Open `index.html` in your browser.
 ---
+
+  Made with ❤️ by Aditya chandel
