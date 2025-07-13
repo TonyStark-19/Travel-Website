@@ -319,7 +319,6 @@ nav ul a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    scroll-margin-top: -10px;
 }
 
 .package-heading h1 {
