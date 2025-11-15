@@ -1,13 +1,19 @@
 # 🌏 WanderVista Travels – Travel Website
 
-Welcome to **WanderVista Travels**, a modern travel website that allows users to explore and book travel packages across various exciting destinations around the world. The site is designed with a sleek user interface that provides flight services, food and catering, hotel booking, and travel assistance, ensuring a hassle-free experience for travelers.
+Welcome to **WanderVista Travels**, a modern and beautifully designed travel website where users can explore global destinations and book travel packages with ease. <br />
+The website provides a smooth browsing experience with sections for flights, accommodations, food & catering, travel assistance, and exclusive packages — offering everything a traveler needs for a perfect trip.
 
 ---
 
 ## 📸 Screenshots
 
-### Homepage :
-![Homepage Screenshot](images/image.png)
+| Preview 1 | Preview 2 |
+|------------|------------|
+| ![Screenshot 1](images/Screenshot/image1.png) | ![Screenshot 2](images/Screenshot/image2.png) |
+
+| Preview 3 | Preview 4 |
+|------------|------------|
+| ![Screenshot 3](images/Screenshot/image3.png) | ![Screenshot 4](images/Screenshot/image4.png) |
 
 ---
 
@@ -28,14 +34,14 @@ You can view the live demo of this project here: [WanderVista Website](https://t
 
 ## 💻 Features
 
-- ✅ **Responsive Layout** – Mobile, tablet, and desktop optimized
-- ✅ **Interactive Navigation Menu**
-- ✅ **Beautiful Hero Section** with call-to-action
-- ✅ **Services Section** – Showcasing the travel services offered
-- ✅ **Locations Section** – Explore available travel destinations
-- ✅ **Packages Section** – Displaying travel packages attractively
-- ✅ **Contact Us Section** – For easy communication
-- ✅ **Font Awesome Icons** – Clean and modern icon usage
+- 📱 Fully Responsive Layout – Optimized for all devices
+- 🌐 Interactive Navigation Menu – Smooth and user-friendly
+- 🏔️ Hero Section – Beautiful imagery and strong call-to-action
+- 🧳 Services Section – Highlights flight, hotel, food & travel services
+- 📍 Locations Section – Explore stunning travel destinations
+- 🎒 Packages Section – Attractive cards presenting travel packages
+- 💬 Contact Form – Easy way for users to reach out
+-⭐ Font Awesome Icons – Clean and modern visual elements
 
 ---
 
@@ -56,4 +62,7 @@ You can view the live demo of this project here: [WanderVista Website](https://t
 3. Open `index.html` in your browser.
 ---
 
-  Made with ❤️ by Aditya chandel
+## 👨‍💻 Author
+
+Made with ❤️ by **Aditya Chandel** <br />
+If you liked this project, consider giving it a ⭐ on GitHub!
