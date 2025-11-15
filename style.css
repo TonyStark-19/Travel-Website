@@ -184,7 +184,6 @@ nav ul a:hover {
     align-items: center;
     flex-direction: column;
     padding: 140px 0 0;
-    margin-bottom: -70px;
 }
 
 .heading h1 {
@@ -248,11 +247,11 @@ nav ul a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: -70px;
+    scroll-margin-top: 60px;
 }
 
 .location-heading h1 {
-    padding: 120px 0 10px;
+    padding: 80px 0 10px;
     font-size: 40px;
     font-weight: 800;
     color: #000;
@@ -319,10 +318,11 @@ nav ul a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    scroll-margin-top: 60px;
 }
 
 .package-heading h1 {
-    padding: 120px 0 10px;
+    padding: 80px 0 10px;
     font-size: 40px;
     font-weight: 800;
     color: #000;
@@ -447,6 +447,7 @@ nav ul a:hover {
     flex-direction: row;
     gap: 30px;
     align-items: center;
+    padding: 40px 0 0;
 }
 
 .newsletter-text {
@@ -1094,7 +1095,7 @@ footer {
 
     .newsletter {
         flex-direction: column;
-        margin-bottom: -30px;
+        margin-bottom: -20px;
     }
 
     .newsletter-text h2 {
@@ -1112,6 +1113,7 @@ footer {
 
     .input-box input {
         font-size: 17px;
+        padding: 20px 30px 20px 25px;
     }
 
     .input-box .Subscribe {
@@ -1226,13 +1228,14 @@ footer {
 
     .location-box,
     .package-box,
-    .package-details {
-        width: 330px;
+    .package-details,
+    .package-content-wrap {
+        width: 95%;
         height: 450px;
     }
 
     .package-details .details {
-        width: 320px;
+        width: 95%;
     }
 }
 
@@ -1349,6 +1352,12 @@ footer {
         padding: 13px 15px;
     }
 
+    /* services section */
+
+    .service-box {
+        width: 95%;
+    }
+
     /* newsletter */
 
     .newsletter {
@@ -1370,7 +1379,7 @@ footer {
 
     .input-box input {
         font-size: 16px;
-        padding: 20px 100px 20px 25px;
+        padding: 20px 30px 20px 25px;
     }
 
     .input-box .Subscribe {
@@ -1410,10 +1419,6 @@ footer {
 @media (max-width: 530px) {
 
     /* services section */
-
-    .service-box {
-        width: 280px;
-    }
 
     .service-box img {
         height: 90px;

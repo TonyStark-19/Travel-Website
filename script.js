@@ -1,5 +1,4 @@
 // JavaScript to toggle the menu
-
 document.addEventListener('DOMContentLoaded', function () {
     const menu = document.querySelector('.navigation');
     const menuBtn = document.querySelector('.menu-btn');
@@ -31,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // js logic for package boxes
-
 document.querySelectorAll('.details-icon').forEach(icon => {
     icon.addEventListener('click', function () {
         let contentWrap = this.closest('.package-content-wrap');
