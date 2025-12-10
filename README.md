@@ -1,17 +1,17 @@
 # 🌏 WanderVista Travels – Travel Website
 
-Welcome to **WanderVista Travels**, a modern and beautifully designed travel website where users can explore global destinations and book travel packages with ease. <br />
+Welcome to **WanderVista Travels**, a modern and beautifully designed travel website where users can explore global destinations and book travel packages with ease.
 The website provides a smooth browsing experience with sections for flights, accommodations, food & catering, travel assistance, and exclusive packages — offering everything a traveler needs for a perfect trip.
 
 ---
 
 ## 📸 Screenshots
 
-| Preview 1 | Preview 2 |
+| 🏠 Home Section | 🛠️ Services Section |
 |------------|------------|
 | ![Screenshot 1](images/Screenshot/image1.png) | ![Screenshot 2](images/Screenshot/image2.png) |
 
-| Preview 3 | Preview 4 |
+| 📍 Location Section | 🎁 Packages Section |
 |------------|------------|
 | ![Screenshot 3](images/Screenshot/image3.png) | ![Screenshot 4](images/Screenshot/image4.png) |
 
